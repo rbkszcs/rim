@@ -1,0 +1,6 @@
+Mouse position stack is not empty. There were more calls to BeginScrollView than EndScrollView. Fixing.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Error (string)
+Verse.Widgets:EnsureMousePositionStackEmpty ()
+(wrapper dynamic-method) Verse.Root:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Play:Update ()
